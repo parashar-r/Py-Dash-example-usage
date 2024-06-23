@@ -95,13 +95,3 @@ def update_chart(chart_type):
 
 if __name__ == '__main__':
     app.run_server(debug=True)
-
-!pip install Tkinter
-
-# Combines Modules and sets up the GUI for interpreter with graphs
-from Tkinter import *
-from Graph import Graph_class
-from interpreter import Interpreter
-import ScrolledText
-from multiListBox import MultiListbox as multiListbox
-
